@@ -1,0 +1,43 @@
+/*если шрифт скачен и добавлен в специально созданную папку со шрифтами
+@font-face {
+    font-family: 'Fasthand'; /любое название/
+    src: url();/в () пишем путь к скаченному шрифту/
+}*/
+ 
+
+p{
+    text-align:justify;
+    /*text-align-last: right;
+    -ms-text-align-last: right;
+    -moz-text-align-last: right;
+    to every inline element(img;span; e.t.)
+    text-decoration-line: underline;
+    text-decoration-style: dashed; 
+    text-decoration-color: blueviolet;   
+    text-decoration-thickness: 3px;
+
+    text-decoration: underline red double 5px;
+
+    text-transform: capitalize;*/
+
+    text-indent: 40px; /*otstupi v paragrafah*/
+    /*letter-spacing: 5px;
+    line-height: 30px; /visota strochki/
+    word-spacing: 100px;
+    white-space: nowrap; /zapreschaet perenos texta/
+    text-shadow: 0 0 3px rgb(12, 211, 108),-3px -3px red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*v kav s probelami*/
+    /*font-weight:900;tolschina 
+    font-variant: small-caps;/delaet bukvi zaglavnie no zaglavniye bol'sche/
+    /*font-size: 1.2em;
+    font-style: italic;*/
+
+    font-family: 'Fasthand',cursive;
+    font-weight: 900;
+    font-style: italic;
+}
+
+span{
+    vertical-align: sub;
+}
+

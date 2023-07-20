@@ -1,0 +1,133 @@
+/*.container{
+    position:relative;
+}
+
+h1{
+    position: absolute;
+    color: red;
+    z-index: 2;
+}
+img{
+    position: relative;
+    z-index: 1;
+}
+
+.one{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+
+.two{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    background-color: purple;
+
+}
+
+
+.three{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:red;
+    z-index: -1;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.ovr-one{
+    overflow: visible;
+}
+
+.ovr-two{
+    overflow: scroll;
+}
+
+.ovr-three{
+    overflow: hidden;
+}
+
+.ovr-four{
+    overflow-y:scroll;
+}
+
+.ovr-five{
+    white-space:nowrap;
+    overflow-x: scroll;
+}
+
+.ovr-six{
+    overflow: auto;
+}
+
+
+
+img{
+    float: right;
+    margin:1em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.two-boxes{
+    float: left;
+    width: 50%;
+    background-color: lightcoral;
+    border: 1px solid black;
+    height: 50px;
+}
+
+
+.three-boxes{
+    float: right;
+    width: 33.3333%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 50px;
+}
+
+#unique{
+    clear: both;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

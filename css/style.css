@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*body{
+    background-color: tomato;
+}*/
+/**/
+#title{
+    color: blueviolet;
+}
+.sub-title{
+    color: aquamarine;
+}
+div p{/*комбинирует*/
+    color: red;
+}
+
+div > p{ /*ближайший родственник*/
+    background-color: aqua;
+}
+
+div ~ p{ /* див и параграф на одном уровне*/
+    font-size: 2em;
+}
+
+div + p{ /*обращение когда после дива сразу идет параграф*/
+    text-decoration: line-through;
+}
+
+div>p:first-child{
+    border: 10px solid red;
+}
+
+p:nth-child(even){
+    text-align: right;
+}

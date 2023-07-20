@@ -1,0 +1,39 @@
+/*
+ul{
+    list-style-type:circle;
+    background-color: darkslategray;
+    list-style-image: url(../img/summer_sunny_sun_weather_forecast_sky_bright_icon_253959.png);
+    list-style-position: inside;
+}
+ul li:nth-child(odd){
+    background-color: blueviolet;
+}
+ul li:nth-child(even){
+    background-color: blue;
+}*/
+
+/*.world{
+    display: none;/ virezaet
+    visibility:hidden;/pryachet,no mesto zanyato}*/
+body{
+    min-height: 1000px;
+}
+    div.one{
+        position: relative;
+        
+        border: 1px solid black;
+        height: 600px;
+        width: 600px;
+    }
+
+    div.two{
+        /*position: fixed;фиксированный относительно окна*/
+        /*position: absolute; работает относительно ближайшего спозиционированного родителя*/
+        position: sticky;
+        position: -webkit-sticky;
+        top:0px;
+        
+        border: 1px red solid;
+        height:100px;
+        width: 100px;
+    }
